@@ -1,33 +1,19 @@
 #Connor Fryhofer 1853826
-def Invoice(service):
-    cost = 0
-    service=service.lower()
-    if(service=="-"):
-        print("No service")
-    elif(service=="oil change"):
-        print("Oil change, $35")
-        cost+=35
-    elif(service=="tire rotation"):
-        print("Tire rotation, $19")
-        cost+=19
-    elif(service=="car wash"):
-        print("Car wash, $7")
-        cost+=7
-    elif(service=="car wax"):
-        print("Car wax, $12")
-        cost+=12
-    return cost
-total = 0
-print("Davy's auto shop services\nOil change -- $35")
-print("Tire rotation -- $19\nCar wash -- $7\nCar wax -- $12\n")
+wall_height = int(input("Enter wall height (feet):\n"))
+wall_width = int(input("Enter wall width (feet):\n"))
+area = wall_width*wall_height
+print("Wall area: " + str(area) + " square feet")
+gallon_paint = 350
+paint_need = area/gallon_paint
+print("Paint needed: {0:.2f} gallons".format(paint_need))
+cans_need = round(paint_need)
+print("Cans needed: " + str(cans_need) + " can(s)")
+paintColors = {"red": 35, "blue":25, "green": 23}
+color = input("\nChoose a color to paint the wall:\n")
+print("Cost of purchasing " + color + " paint: $" + str(cans_need*paintColors[color]))
 
-service_1 = input("Select first service:\n")
-service_2 = input("Select second service:\n")
-print("\nDavy's auto shop invoice\n")
-print("Service 1: ",end="")
-cost = Invoice(service_1)
-total+=cost
-print("Service 2: ",end="")
-cost = Invoice(service_2)
-total+=cost
-print("\nTotal: $",total,sep="")
+
+
+
+
+
