@@ -5,7 +5,7 @@ list_Month = { "january": "1", "february": "2", "march": "3", "april": "4", "may
 
 input_file=open(HW2/inputDates.txt,'r')
 
-output_file=open('HW2/parsedDates.txt','w')
+output_file=open(HW2/parsedDates.txt,'w')
 
 for each in input_file:
     if each!="-1":
