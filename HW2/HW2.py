@@ -1,6 +1,6 @@
 #Connor Fryhofer 1853826
 
-list_Month = { "january": "1", "february": "2", "march": "3", "april": "4", "may": "5", "june": "6", "j": "7", "august": "8",
+list_Month = { "january": "1", "february": "2", "march": "3", "april": "4", "may": "5", "june": "6", "july": "7", "august": "8",
                "september": "9", "october": "10", "november": "11", "december": "12"}
 
 input_file=open('hi-im-connor:\\HW2\\inputDates.txt','r')
