@@ -1,3 +1,4 @@
+#Connor Fryhofer 1853826
 numbers = input().split()
 result = []
 
