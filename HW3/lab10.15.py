@@ -1,3 +1,4 @@
+#Connor Fryhofer 1853826
 class Team:
     def __init__(self):
         self.team_name = 'none'
