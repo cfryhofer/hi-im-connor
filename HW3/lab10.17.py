@@ -1,3 +1,5 @@
+#Connor Fryhofer 1853826
+
 #set up ItemToPurchase
 
 class ItemToPurchase:
