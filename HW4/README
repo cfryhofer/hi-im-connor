@@ -1,0 +1,4 @@
+12.7 calculates an adult's fat-burning heart rate, which is 70% of 220 minus the person's age.
+12.9 reads a list of single-word first names and ages (ending with -1), and outputs that list with the age incremented.
+14.11 takes an integer list and sorts the list into descending order.
+14.13 reads user IDs, completes the quicksort and partitions functions to sort the IDs in ascending order using the Quicksort algorithm
